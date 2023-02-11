@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <>
       {/* mobile navbar */}
-      <div className="w-full h-auto  fixed top-0  bg-blue-100  z-10 md:hidden flex flex-row justify-center">
+      <div className="w-full h-auto  fixed top-0    z-10 md:hidden flex flex-row justify-center">
         <div
-          className="flex flex-col bg-red-300 gap-1 justify-center absolute left-0 inset-y-0 "
+          className="flex flex-col  gap-1 justify-center absolute left-0 inset-y-0 "
           onClick={() => {
             SetNavbarVisible(!navbarVisible);
           }}
@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
 
       <nav
-        className="bg-red-200 h-screen w-full flex-col md:hidden fixed top-0"
+        className=" h-screen w-full flex-col md:hidden fixed top-0"
         style={{ display: navbarVisible ? 'flex' : 'none' }}
       >
         <ul className="flex flex-col gap-10 items-center justify-center h-full w-full bg-white">
@@ -57,7 +57,7 @@ const Navbar = () => {
 
       {/* Desktop navbar */}
 
-      <nav className="hidden md:flex flex-row justify-around items-center px-10 border-b fixed top-0">
+      <nav className="hidden md:flex flex-row justify-around items-center px-10 border-b fixed top-0 w-full h-24">
       <Image
           src="/logo.png"
           alt="Creativo Code"
