@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Hero from '@/components/home/landing';
+import Projects from '@/components/home/projects';
 
 // import styles from '@/styles/Home.module.css'
 
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="w-full h-screen ">
 
         <Hero/>
+        <Projects/>
 
       </main>
     </>
