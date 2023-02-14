@@ -1,8 +1,6 @@
 import Head from 'next/head';
-import Hero from '@/components/home/landing';
-import Projects from '@/components/home/projects';
-import Services from '@/components/home/services';
-// import styles from '@/styles/Home.module.css'
+import { Technologies, Services, Projects, Hero, AboutUs } from '@/components/home';
+
 
 export default function Home() {
   return (
@@ -18,6 +16,8 @@ export default function Home() {
         <Hero />
         <Projects />
         <Services />
+        <Technologies/>
+        <AboutUs />
       </main>
     </>
   );

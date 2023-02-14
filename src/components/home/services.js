@@ -26,6 +26,13 @@ const Services = () => {
           <Service service={service} key={service.name} />
         ))}
       </div>
+
+
+
+
+      <div>
+        
+      </div>
     </div>
   );
 };
