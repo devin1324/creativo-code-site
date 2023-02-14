@@ -1,17 +1,17 @@
-import Layout from "@/components/layout";
+// import Layout from "@/components/layout";
 
-export default function Project() {
-    return(
-        <Layout>
+// export default function Project() {
+//     return(
+//         <Layout>
 
-        </Layout>
-    )
-}
+//         </Layout>
+//     )
+// }
 
-export async function getStaticPaths() {
+// export async function getStaticPaths() {
 
-}
+// }
 
-export async function getStaticProps({params}) {
+// export async function getStaticProps({params}) {
     
-}
+// }
