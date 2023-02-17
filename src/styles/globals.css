@@ -2,7 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+main {
+  scroll-behavior: smooth;
+}
 
-html, main {
-    scroll-behavior: smooth;
+.stack-layer-grid-parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.stack-layer-grid-child {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.navbar-shadow {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
 }

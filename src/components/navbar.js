@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       {/* mobile navbar */}
-      <div className="w-full h-auto  fixed top-0    z-10 md:hidden flex flex-row justify-center bg-clip-padding bg-blue-400 backdrop-filter backdrop-blur-md bg-opacity-20">
+      <div className="w-full h-auto  fixed top-0  z-10 md:hidden flex flex-row justify-center bg-clip-padding bg-blue-400 backdrop-filter backdrop-blur-md bg-opacity-20 navbar-shadow">
         <div
           className="flex flex-col  gap-1 justify-center absolute left-0 inset-y-0 "
           onClick={() => {
@@ -23,9 +23,9 @@ const Navbar = () => {
         <Image
           src="/logo.png"
           alt="Creativo Code"
-          className="w-40 h-24 self-center justify-items-end"
+          className="w-40 h-16 self-center justify-items-end"
           width="200"
-          height="100"
+          height="200"
         />
       </div>
 
@@ -57,31 +57,31 @@ const Navbar = () => {
 
       {/* Desktop navbar */}
 
-      <nav className="hidden md:flex flex-row justify-around items-center px-8 border-b fixed top-0 w-full h-24 bg-clip-padding bg-blue-400 backdrop-filter backdrop-blur-md bg-opacity-20">
+      <nav className="hidden md:flex flex-row justify-around items-center px-8 fixed top-0 w-full h-20 bg-clip-padding  text-white navbar-shadow">
         <Image
           src="/logo.png"
           alt="Creativo Code"
-          className="w-40 h-24 self-center justify-items-end"
+          className="w-40 h-16 self-center justify-items-end"
           width="200"
-          height="100"
+          height="200"
         />
         <ul className="flex flex-row gap-6">
-          <li className="py-2 px-1  bg-red-100">
+          <li className="py-2 px-1  ">
             <Link href="#home">Home</Link>
           </li>
-          <li className="py-2 px-1  bg-red-100">
+          <li className="py-2 px-1 ">
             <Link href="/">About Us</Link>
           </li>
-          <li className="py-2 px-1  bg-red-100">
+          <li className="py-2 px-1  ">
             <Link href="#projects">Projects</Link>
           </li>
-          <li className="py-2 px-1 bg-red-100">
+          <li className="py-2 px-1 ">
             <Link href="/">Contact Us</Link>
           </li>
-          <li className="py-2  px-1 bg-red-100">
+          <li className="py-2  px-1 ">
             <Link href="/">Join with Us</Link>
           </li>
-          <li className="py-2 px-1  bg-red-100">
+          <li className="py-2 px-1  ">
             <Link href="/">Store</Link>
           </li>
         </ul>
