@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
+
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const Project = ({ project }) => {
   return (
-    <div className="bg-red-200 p-10 rounded-tl-3xl rounded-br-3xl flex flex-col gap-2 md:max-w-[400px] md:min-w-[400px] ">
+    <div className="bg-red-200 p-10 rounded-tl-3xl rounded-br-3xl flex flex-col gap-2 md:max-w-[400px] md:min-w-[400px] justify-self-center">
       <h5 className="text-2xl">Topic</h5>
 
       <p>
@@ -36,17 +41,21 @@ const Projects = () => {
     { name: 'Deliverabl' },
   ];
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  };
+
   return (
-    <div
-      id="projects"
-      className="flex flex-col  "
-    >
-      <h2 className='text-center text-3xl pb-10'>Projects</h2>
-      <div className='flex flex-col items-center gap-20 bg-blue-20 px-8 md:flex-row  md:px-10 md:justify-center md:flex-wrap'>
+    <div id="projects" className=" mt-32 bg-blue-200 md:px-20">
+      <Slider {...settings}>
         {projectDetails.map((project) => (
           <Project project={project} key={project.name} />
         ))}
-      </div>
+      </Slider>
     </div>
   );
 };

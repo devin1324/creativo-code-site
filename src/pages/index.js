@@ -14,8 +14,8 @@ export default function Home() {
 
       <main className="w-full h-screen ">
         <Hero />
-        <Projects />
         <Services />
+        <Projects />
         <Technologies/>
         <AboutUs />
       </main>

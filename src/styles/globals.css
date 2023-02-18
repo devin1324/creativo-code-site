@@ -22,3 +22,20 @@ main {
 .navbar-shadow {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
 }
+
+.service-parent[data-isMouseOver='true'] {
+  height: 202%;
+  z-index: 99;
+}
+.service-content[data-isMouseOver='false'] {
+  opacity: 0;
+  transition: 1000ms;
+}
+.service-content[data-isMouseOver='true'] {
+  opacity: 1;
+  transition: 1000ms;
+}
+
+/* .center-c{
+  scale: 0.5;
+} */
