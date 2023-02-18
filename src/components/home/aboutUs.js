@@ -64,16 +64,6 @@ const AboutUs = () => {
           <TeamMember key={teamMember.name} teamMember={teamMember} />
         ))}
       </div>
-
-      <h4 className="text-center text-2xl underline">
-        Why you should Work with Us ?
-      </h4>
-
-      <div className="flex flex-row  text-5xl flex-wrap gap-5 items-center  justify-center w-full h-96 border-4 border-green-900 text-center">
-        <p>We are creative</p>
-        <p>We are talented</p>
-        <p>we are expirienced</p>
-      </div>
     </div>
   );
 };

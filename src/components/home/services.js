@@ -37,7 +37,7 @@ const Services = () => {
   ];
 
   return (
-    <div id="services" className='md-[20vh] md:mb-[25vh]'>
+    <div id="services" className='md-[20vh] md:mb-[25vh] lg:px-16'>
       <h2 className="text-3xl text-center py-20">Our Services</h2>
 
       <motion.div className=" grid grid-flow-col-dense grid-rows-4 grid-cols-2  px-10 w-full h-[70vh] md:h-[40vh] md:grid-rows-2 md:grid-cols-4 gap-1">

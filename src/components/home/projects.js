@@ -8,37 +8,35 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Project = ({ project }) => {
   return (
-    <div className="bg-red-200 p-10 rounded-tl-3xl rounded-br-3xl flex flex-col gap-2 md:max-w-[400px] md:min-w-[400px] justify-self-center">
-      <h5 className="text-2xl">Topic</h5>
+    <div
+      className=" rounded-3xl flex flex-col gap-2 w-full justify-self-center items-start justify-end bg-cover h-[70vh] text-white md:w-[60vw] md:max-w-[400px] md:min-w-[400px] "
+      style={{ backgroundImage: `url("${project.img}")` }}
+    >
+      <div className=" w-full p-10 flex flex-col gap-1 project-card-text-bg-gradient">
+        <h5 className="text-2xl">{project.name}</h5>
 
-      <p>
-        Project description Project description Project description Project
-        description Project description Project description
-      </p>
+        <p>
+          Project description Project description Project description Project
+          description Project description Project description
+        </p>
 
-      <p className="text-gray-500">#Tec #used #and #hash #tags</p>
+        <p className="text-gray-500">#Tec #used #and #hash #tags</p>
 
-      <a href="" className="pt-5">
-        More detail project page ==
-      </a>
-      <Image
-        src="/ph-projects.jpg"
-        alt=""
-        width="300"
-        height="300"
-        className="h-72 w-60 rounded-xl mt-5 self-center md:h-80 md:w-72"
-      />
+        <a href="" className="pt-5">
+          More detail project page ==
+        </a>
+      </div>
     </div>
   );
 };
 
 const Projects = () => {
   const projectDetails = [
-    { name: 'Deliverables' },
-    { name: 'Deliverable' },
-    { name: 'Deliverabl' },
-    { name: 'Deliverabl' },
-    { name: 'Deliverabl' },
+    { name: 'Deliverables', img: '/projects/1.png' },
+    { name: 'Deliverable', img: '/projects/2.png' },
+    { name: 'Deliverabl', img: '/projects/3.png' },
+    { name: 'Deliverabl', img: '/projects/1.png' },
+    { name: 'Deliverabl', img: '/projects/1.png' },
   ];
 
   const settings = {
@@ -46,16 +44,54 @@ const Projects = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3
+    slidesToScroll: 3,
+    initialSlide: 0,
+    centerMode: true,
+
+    centerPadding: '5vw',
+    responsive: [
+      {
+        breakpoint: 1524,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding: `15vw`,
+          centerMode: true,
+        },
+      },
+    ],
   };
 
   return (
-    <div id="projects" className=" mt-32 bg-blue-200 md:px-20">
-      <Slider {...settings}>
+    <div
+      id="projects"
+      className="flex flex-col mt-32 bg-[url('/bg-deco.png')] gap-20 md:py-20 md:px-20 "
+    >
+      <h3 className="text-white  text-center text-4xl">
+        SOME OF THE RECENT THAT WE HAVE DONE
+      </h3>
+      <div className="md:block hidden">
+        <Slider {...settings}>
+          {projectDetails.map((project) => (
+            <Project project={project} key={project.name} />
+          ))}
+        </Slider>
+      </div>
+
+      <div className="md:hidden flex flex-col w-full px-5 gap-10">
         {projectDetails.map((project) => (
           <Project project={project} key={project.name} />
         ))}
-      </Slider>
+      </div>
     </div>
   );
 };

@@ -23,14 +23,14 @@ const Navbar = () => {
         <Image
           src="/logo.png"
           alt="Creativo Code"
-          className="w-40 h-16 self-center justify-items-end"
+          className="w-40 h-24 self-center justify-items-end"
           width="200"
           height="200"
         />
       </div>
 
       <nav
-        className=" h-screen w-full flex-col md:hidden fixed top-0 "
+        className=" h-screen w-full flex-col md:hidden fixed top-0 z-[999] bg-slate-200"
         style={{ display: navbarVisible ? 'flex' : 'none' }}
       >
         <ul className="flex flex-col gap-10 items-center justify-center h-full w-full bg-white">
@@ -57,11 +57,11 @@ const Navbar = () => {
 
       {/* Desktop navbar */}
 
-      <nav className="hidden md:flex flex-row justify-around items-center px-8 fixed top-0 w-full h-20 bg-clip-padding  text-white navbar-shadow">
+      <nav className="hidden md:flex flex-row justify-around items-center px-8 fixed top-0 w-full h-20 bg-clip-padding  text-black navbar-shadow bg-slate-100 z-[9999] opacity-95">
         <Image
           src="/logo.png"
           alt="Creativo Code"
-          className="w-40 h-16 self-center justify-items-end"
+          className="w-40 h-24 self-center justify-items-end"
           width="200"
           height="200"
         />
