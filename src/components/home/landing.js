@@ -6,7 +6,7 @@ import { MdAlternateEmail } from 'react-icons/md';
 const ChangingText = () => {
   return (
     <div className="h-32  w-full flex flex-col justify-center">
-      <h3 className="text-center text-4xl">we are Creativo Code</h3>
+      <h3 className="text-center text-7xl">we are Creativo Code</h3>
     </div>
   );
 };
@@ -34,10 +34,19 @@ const Hero = () => {
           <h4 className="text-center">Find us on</h4>
           <IconContext.Provider value={{ color: 'white', size: '1.5rem' }}>
             <div className="flex flex-row gap-5">
-              <BsInstagram />
-              <BsTwitter />
-              <BsLinkedin />
-              <MdAlternateEmail />
+              <a href="">
+                <BsInstagram />
+              </a>
+              <a href="">
+                <BsTwitter />
+              </a>
+              <a href="">
+                {' '}
+                <BsLinkedin />
+              </a>
+              <a href="mailto:">
+                <MdAlternateEmail />
+              </a>
             </div>
           </IconContext.Provider>
         </div>

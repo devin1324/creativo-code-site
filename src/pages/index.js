@@ -5,7 +5,9 @@ import {
   Projects,
   Hero,
   AboutUs,
-  WhyUs,
+  Schedule,
+  Testimonials,
+  ContactUs,
 } from '@/components/home';
 
 export default function Home() {
@@ -22,9 +24,11 @@ export default function Home() {
         <Hero />
         <Services />
         <Projects />
-        <WhyUs />
+        <Testimonials />
         <Technologies />
+        <Schedule />
         <AboutUs />
+        <ContactUs />
       </main>
     </>
   );

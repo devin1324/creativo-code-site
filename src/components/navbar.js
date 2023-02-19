@@ -46,12 +46,12 @@ const Navbar = () => {
           <li>
             <Link href="/">Contact Us</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/">Join with Us</Link>
           </li>
           <li>
             <Link href="/">Store</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
 
@@ -78,12 +78,12 @@ const Navbar = () => {
           <li className="py-2 px-1 ">
             <Link href="/">Contact Us</Link>
           </li>
-          <li className="py-2  px-1 ">
+          {/* <li className="py-2  px-1 ">
             <Link href="/">Join with Us</Link>
           </li>
           <li className="py-2 px-1  ">
             <Link href="/">Store</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </>

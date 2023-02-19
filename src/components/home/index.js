@@ -4,5 +4,18 @@ import Services from './services';
 import Technologies from './technologies';
 import AboutUs from './aboutUs';
 import WhyUs from './whyUs';
+import Schedule from './schedule';
+import Testimonials from './testimonials';
+import ContactUs from './contact';
 
-export { Technologies, Services, Projects, Hero, AboutUs, WhyUs };
+export {
+  Technologies,
+  Services,
+  Projects,
+  Hero,
+  AboutUs,
+  WhyUs,
+  Schedule,
+  Testimonials,
+  ContactUs,
+};
