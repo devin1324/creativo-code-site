@@ -4,7 +4,7 @@ import { AiOutlineStar, AiFillStar } from 'react-icons/ai';
 
 const testimonialData = [
   {
-    name: 'a',
+    name: 'Toomas Nurme',
     img: '/ph-projects.jpg',
     review:
       '"We were impressed by the quality of work that Creativo Code delivered for our website redesign. Their team was highly skilled, responsive, and collaborative, and they were able to create a website that was not only beautiful but also highly functional and optimized for search engines. The final product was exactly what we were looking for.”',
@@ -19,7 +19,7 @@ const testimonialData = [
     ),
   },
   {
-    name: 'b',
+    name: 'Benjamin Yong Lun',
     img: '',
     review:
       '"I recently worked with Creativo Code on a design project, and I was blown away by their work. They were able to take my vision and turn it into a stunning design that perfectly captured the essence of my brand. Their communication and responsiveness were also excellent, making the entire process smooth and stress-free."',
@@ -34,7 +34,7 @@ const testimonialData = [
     ),
   },
   {
-    name: 'c',
+    name: 'Renji Nakasone',
     img: '',
     review:
       '"We were blown away by the creativity and professionalism of Creativo Code during our project. Their team was able to take a complex idea and turn it into a beautiful, user-friendly website that exceeded our expectations. They were highly communicative throughout the process, and we appreciated their ability to work within our budget and timeline."',
