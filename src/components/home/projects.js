@@ -44,9 +44,9 @@ const Projects = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
-    // centerMode: true,
+    centerMode: true,
 
     centerPadding: '5vw',
     responsive: [

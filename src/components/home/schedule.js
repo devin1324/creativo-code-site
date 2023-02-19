@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { PopupButton } from 'react-calendly';
 
 const Schedule = () => {
-  const [element, setElement] = useState(1);
+  const [element, setElement] = useState();
 
   useEffect(() => {
     const ele = document.getElementById('schedule');
