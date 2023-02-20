@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full h-screen ">
+      <div className="w-full h-screen ">
         <Hero />
         <Services />
         <Projects />
@@ -29,7 +29,7 @@ export default function Home() {
         <AboutUs />
         <Schedule />
        
-      </main>
+      </div>
     </>
   );
 }

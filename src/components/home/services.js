@@ -34,7 +34,7 @@ const Services = () => {
       img: '/services/Websitemaintenanceandsuppor.jpg',
     },
     {
-      name: 'Branding and identity design',
+      name: 'Branding and Identity Design',
       img: '/services/Brandingandidentitydesign.jpg',
     },
     { name: '3D Visualisation', img: '/services/Advertisingdesign.jpg' },
