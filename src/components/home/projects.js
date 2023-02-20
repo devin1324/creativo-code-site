@@ -98,9 +98,9 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col mt-32 bg-[url('/bg-deco.png')] gap-20 py-5 md:py-20 md:px-20 "
+      className="flex flex-col py-20 bg-[url('/bg-deco.png')] gap-20  md:py-20 md:px-20 "
     >
-      <h3 className="text-white  text-center text-4xl">Our recent projects</h3>
+      <h3 className="text-white  text-center text-4xl font-semibold">Our recent projects</h3>
       <div className="md:block hidden">
         <Slider {...settings}>
           {projectDetails.map((project) => (

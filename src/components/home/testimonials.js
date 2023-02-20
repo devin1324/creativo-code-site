@@ -52,7 +52,11 @@ const testimonialData = [
 const Testimonials = () => {
   return (
     <div className="w-full h-auto p-5 lg:p-20 md:p-10 flex flex-col gap-10 mb-20 md:mb-0">
-      <h3 className="text-black  text-center text-4xl">What people think..</h3>
+      <span className='self-center'>
+        <h3 className="  text-center text-4xl font-extrabold inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+          What people think..
+        </h3>
+      </span>
       <div className="grid gap-14  grid-cols-1 grid-rows-3 pt-10 lg:gap-7 lg:grid-cols-3 lg:grid-rows-1 ">
         {testimonialData.map((review) => (
           <div
@@ -71,7 +75,9 @@ const Testimonials = () => {
               {review.starts}
             </div> */}
             <p className="pb-5 text-center md:text-left ">{review.review}</p>
-            <h6 className=" text-stone-600 text-md self-end italic">{review.name}</h6>
+            <h6 className=" text-stone-600 text-md self-end italic">
+              {review.name}
+            </h6>
           </div>
         ))}
       </div>

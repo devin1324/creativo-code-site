@@ -47,9 +47,13 @@ const Technologies = () => {
         </motion.div>
       </div>
 
-      <div className=" text-white flex flex-col gap-6   justify-center items-center ">
-        <h3 className="text-4xl text-center">Technologies that we use</h3>
-        <p className="text-center px-7">
+      <div className=" text-white flex flex-col gap-6   justify-center items-center px-7 ">
+        <span>
+          <h3 className="text-4xl text-center font-extrabold inline-block text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-400">
+            Technologies that we use
+          </h3>
+        </span>
+        <p className="text-center ">
           Our company uses cutting-edge frontend and backend technologies to
           create modern, dynamic, and scalable applications for our clients. Our
           team of experienced developers leverages a wide range of tools and
