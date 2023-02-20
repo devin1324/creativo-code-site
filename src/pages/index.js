@@ -8,6 +8,7 @@ import {
   Schedule,
   Testimonials,
   ContactUs,
+  Footer,
 } from '@/components/home';
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
         <Schedule />
         <AboutUs />
         <ContactUs />
+        <Footer />
       </main>
     </>
   );

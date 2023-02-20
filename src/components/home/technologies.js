@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Technologies = () => {
   return (
-    <div className="w-full h-auto bg-stone-800  grid grid-cols-1  gap-y-10  py-20 lg:mt-40 md:gap-20 lg:py-5 lg:grid-cols-3 md:px-20 place-items-center lg:gap-0">
+    <div className="w-full h-auto bg-stone-800  flex flex-col-reverse  md:grid grid-cols-1  gap-y-10  py-20 lg:mt-40 md:gap-20 lg:py-5 lg:grid-cols-3 md:px-20 place-items-center lg:gap-0">
       <div className=" stack-layer-grid-parent col-span-2  p-10 h-auto w-full lg:-translate-y-60 md:h-[83vmin] md:w-[83vmin] overflow-hidden">
         <motion.div
           className="stack-layer-grid-child "
@@ -48,7 +48,7 @@ const Technologies = () => {
       </div>
 
       <div className=" text-white flex flex-col gap-6   justify-center items-center ">
-        <h3 className="text-2xl text-center">Technologies that we use</h3>
+        <h3 className="text-4xl text-center">Technologies that we use</h3>
         <p className="text-center px-7">
           Our company uses cutting-edge frontend and backend technologies to
           create modern, dynamic, and scalable applications for our clients. Our

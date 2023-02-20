@@ -54,7 +54,7 @@ const teamMemberData = [
 
 const AboutUs = () => {
   return (
-    <div className="w-full h-auto mt-20 flex flex-col gap-10 px-10 md:px-32">
+    <div id='aboutUs' className="w-full h-auto  flex flex-col gap-10 px-10 md:mt-20 md:px-32">
       <div className="bg-[url('/bg-deco.png')] rounded-3xl md:p-20 p-10 flex flex-col gap-6 drop-shadow-xl">
         <h3 className="text-center text-4xl text-white">About Us</h3>
 
@@ -70,7 +70,7 @@ const AboutUs = () => {
 
       <h4 className="text-center text-4xl mt-20">Meet our team</h4>
 
-      <div className="flex flex-row flex-wrap items-baseline justify-center gap-x-20 ">
+      <div className="flex flex-row flex-wrap items-baseline justify-center gap-x-20 mb-40">
         {teamMemberData.map((teamMember) => (
           <TeamMember key={teamMember.name} teamMember={teamMember} />
         ))}

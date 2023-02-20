@@ -6,13 +6,13 @@ const Service = ({ service, i }) => {
   return (
     <div
       
-      className="bg-cover bg-no-repeat  flex items-center text-left p-2 rounded-3xl origin-bottom service-parent"
+      className="bg-cover bg-no-repeat  flex items-center text-left  rounded-3xl origin-bottom service-parent overflow-hidden"
       style={{ backgroundImage: `url(${service.img})` }}
       
       
     >
-      <div >
-        <h4 className="text-white text-2xl">{service.name}</h4>
+      <div className='bg-stone-800 w-full h-full p-2 flex justify-center items-center backdrop-filter backdrop-blur-sm bg-opacity-30'>
+        <h4 className="text-white text-md text-center md:text-left  md:text-2xl">{service.name}</h4>
         
       </div>
     </div>

@@ -7,6 +7,8 @@ import WhyUs from './whyUs';
 import Schedule from './schedule';
 import Testimonials from './testimonials';
 import ContactUs from './contact';
+import Footer from '../footer';
+
 
 export {
   Technologies,
@@ -18,4 +20,5 @@ export {
   Schedule,
   Testimonials,
   ContactUs,
+  Footer,
 };
