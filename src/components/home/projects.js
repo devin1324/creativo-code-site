@@ -30,30 +30,30 @@ const Project = ({ project }) => {
 const Projects = () => {
   const projectDetails = [
     {
-      name: 'Selena Nicole portfolio',
+      name: 'Selena Nicole Portfolio',
       img: '/projects/1.webp',
       hashtTags: '#ui #ux  #figma #glassmorphism #minimalistic',
       details:
         'Portfolio for a singer with a simple, clear layout, glassmorphism theme, and strong visual imagery. Including features such as streamable music and easy-to-find video content.',
     },
     {
-      name: 'Deliverable factory',
+      name: 'Deliverable Factory',
       img: '/projects/2.webp',
       hashtTags: '#html #css #js #gsap #parallax',
       details:
         'Desktop-focused, parallax website with interactive scroll animations for a provided design.',
     },
     {
-      name: 'AI image generator',
+      name: 'AI Image Generator',
       img: '/projects/3.webp',
       hashtTags: '#reactjs #tailswindCss #mongoDB #mongoose #nodejs #expressjs',
       details: "MERN stack app connected to the open-AI's DALL-E API. Which generates images for a given prompt. The site includes a gallery connected to the Cloudinary platform.",
     },
     {
-      name: 'Deliverabl',
+      name: 'Image Editing App',
       img: '/projects/4.webp',
-      hashtTags: '#html #css #js #gsap',
-      details: '',
+      hashtTags: '#C #GraphicDesign #Photoeditting #Filter #Glowup',
+      details: 'C language app that has the ability to create filters for any image you want. The software includes bunch of filters to make your day.',
     },
     {
       name: 'Deliverabl',

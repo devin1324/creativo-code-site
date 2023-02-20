@@ -106,7 +106,7 @@ const Navbar = () => {
           width="200"
           height="200"
         />
-        <ul className="flex flex-row gap-6">
+        <ul className="flex flex-row gap-6 items-baseline">
           <li className="py-2 px-1  ">
             <Link href="#home">Home</Link>
           </li>
@@ -121,7 +121,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <button className="p-1 bg-stone-800  text-white text-lg rounded-sm drop-shadow-lg">
+            <button className="px-2 py-2 bg-stone-800  text-white text-sm rounded-sm drop-shadow-lg">
               <PopupButton
                 url="https://calendly.com/thecreativocode/schedule-a-meeting"
                 rootElement={element}
