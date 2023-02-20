@@ -12,7 +12,7 @@ const Service = ({ service, i }) => {
       
     >
       <div className='bg-stone-800 w-full h-full p-2 flex justify-center items-center backdrop-filter backdrop-blur-sm bg-opacity-30'>
-        <h4 className="text-white text-md text-center md:text-left  md:text-2xl">{service.name}</h4>
+        <h4 className="text-white text-md text-center font-semibold md:text-left  md:text-2xl">{service.name}</h4>
         
       </div>
     </div>

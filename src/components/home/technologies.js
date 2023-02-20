@@ -53,7 +53,7 @@ const Technologies = () => {
             Technologies that we use
           </h3>
         </span>
-        <p className="text-center ">
+        <p className="text-center text-stone-300">
           Our company uses cutting-edge frontend and backend technologies to
           create modern, dynamic, and scalable applications for our clients. Our
           team of experienced developers leverages a wide range of tools and
