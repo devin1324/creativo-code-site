@@ -6,7 +6,7 @@ import { MdAlternateEmail } from 'react-icons/md';
 
 const Footer = () => {
   return (
-    <footer className="w-full flex flex-col-reverse justify-around items-center  py-5 px-10 bg-slate-100 shadow-lg gap-y-4 md:gap-y-0 md:flex-row md:justify-between md:px-32">
+    <footer className="w-full flex flex-col-reverse justify-around items-center  py-5 px-10 bg-slate-100 shadow-lg gap-y-4 md:gap-y-0 md:flex-row md:justify-between md:px-32 z-20" >
       <p className='text-gray-600'> © Copyright 2023 Creativo Code.</p>
 
      

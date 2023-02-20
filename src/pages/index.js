@@ -7,8 +7,7 @@ import {
   AboutUs,
   Schedule,
   Testimonials,
-  ContactUs,
-  Footer,
+  
 } from '@/components/home';
 
 export default function Home() {
@@ -27,10 +26,9 @@ export default function Home() {
         <Projects />
         <Testimonials />
         <Technologies />
-        <Schedule />
         <AboutUs />
-        <ContactUs />
-        <Footer />
+        <Schedule />
+       
       </main>
     </>
   );

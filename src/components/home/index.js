@@ -6,8 +6,6 @@ import AboutUs from './aboutUs';
 import WhyUs from './whyUs';
 import Schedule from './schedule';
 import Testimonials from './testimonials';
-import ContactUs from './contact';
-import Footer from '../footer';
 
 
 export {
@@ -19,6 +17,4 @@ export {
   WhyUs,
   Schedule,
   Testimonials,
-  ContactUs,
-  Footer,
 };

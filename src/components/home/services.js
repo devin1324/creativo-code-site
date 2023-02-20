@@ -21,23 +21,23 @@ const Service = ({ service, i }) => {
 
 const Services = () => {
   const servicesData = [
-    { name: 'Website development', img: '/services/Webdevelopment.jpg' },
-    { name: 'Website design', img: '/services/Websitedesign.jpg' },
-    { name: 'E-commerce solutions', img: '/services/E-commercesolutions.jpg' },
+    { name: 'Website Development', img: '/services/Webdevelopment.jpg' },
+    { name: 'Website Design', img: '/services/Websitedesign.jpg' },
+    { name: 'E-commerce Solutions', img: '/services/E-commercesolutions.jpg' },
     { name: 'Digital Design', img: '/services/DigitalDesign.jpg' },
     {
-      name: 'Search Engine Optimization (SEO)',
+      name: 'SEO',
       img: '/services/SearchEngineOptimization.webp',
     },
     {
-      name: 'Website maintenance and support',
+      name: 'Website Maintenance and Support',
       img: '/services/Websitemaintenanceandsuppor.jpg',
     },
     {
       name: 'Branding and identity design',
       img: '/services/Brandingandidentitydesign.jpg',
     },
-    { name: '3D modeling', img: '/services/Advertisingdesign.jpg' },
+    { name: '3D Visualisation', img: '/services/Advertisingdesign.jpg' },
   ];
 
   return (

@@ -1,57 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 
-const TeamMember = ({ teamMember }) => {
-  return (
-    <div className="flex flex-col items-center justify-center gap-5  p-10 drop-shadow-lg">
-      <span className="border border-black border-dashed p-2 rounded-full flex ">
-        <Image
-          src="/ph-projects.jpg"
-          alt=""
-          width="200"
-          height="200"
-          className="h-36 w-36 rounded-full "
-        />
-      </span>
-      <span className="flex flex-col text-center items-center gap-0">
-        <h6 className="text-2xl">{teamMember.name}</h6>
-        <p className="text-gray-700 text-sm">{teamMember.position}</p>
-        <p className="pt-4 text-md flex max-w-xs">{teamMember.quote}</p>
-      </span>
-    </div>
-  );
-};
-
-const teamMemberData = [
-  {
-    name: 'Devin',
-    position: 'Founder & CEO',
-    quote: '"Hi, I love playing around with new tecnologies"',
-  },
-  {
-    name: 'Suneth',
-    position: 'Co-founder & Graphics Expert',
-    quote: '"Hey, I\'m a day dreamer"',
-  },
-  {
-    name: 'Danindu',
-    position: 'Co-founder & Social Media Manager',
-    quote: '"I love meeting new people"',
-  },
-  {
-    name: 'Tharindu',
-    position: 'Web Developer Expert',
-    quote: '"I love meeting new people"',
-  },
-
-  {
-    name: 'Nayantha',
-    position: 'UI/UX Designer',
-    quote: '"I love meeting new people"',
-  },
-  { name: 'Dehen', position: '3D Modeler', quote: '"I love meeting new people"' },
-];
-
 const AboutUs = () => {
   return (
     <div id='aboutUs' className="w-full h-auto  flex flex-col gap-10 px-10 md:mt-20 md:px-32">
@@ -67,14 +16,7 @@ const AboutUs = () => {
           business!
         </p>
       </div>
-
-      <h4 className="text-center text-4xl mt-20">Meet our team</h4>
-
-      <div className="flex flex-row flex-wrap items-baseline justify-center gap-x-20 mb-40">
-        {teamMemberData.map((teamMember) => (
-          <TeamMember key={teamMember.name} teamMember={teamMember} />
-        ))}
-      </div>
+      
     </div>
   );
 };
