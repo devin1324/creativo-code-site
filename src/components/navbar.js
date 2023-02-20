@@ -121,7 +121,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <button className="px-2 py-2 bg-stone-800  text-white text-sm rounded-sm drop-shadow-lg">
+            <button className="px-3 py-2 bg-stone-800  text-white text-sm rounded-sm drop-shadow-lg">
               <PopupButton
                 url="https://calendly.com/thecreativocode/schedule-a-meeting"
                 rootElement={element}

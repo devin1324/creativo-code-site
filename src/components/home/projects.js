@@ -17,7 +17,7 @@ const Project = ({ project }) => {
 
         <p className="text-sm">{project.details}</p>
 
-        <p className="text-stone-500 pt-1">{project.hashtTags}</p>
+        <p className="text-stone-500 pt-1 lowercase">{project.hashtTags}</p>
 
         {/* <a href="" className="pt-5">
           More detail project page ==
@@ -56,10 +56,10 @@ const Projects = () => {
       details: 'C language app that has the ability to create filters for any image you want. The software includes bunch of filters to make your day.',
     },
     {
-      name: 'Deliverabl',
+      name: 'Jammy 3D Reveal Animation',
       img: '/projects/5.png',
-      hashtTags: '#html #css #js #gsap',
-      details: '',
+      hashtTags: '#3D #Animation #Advertisement #3DModeling #Branding #blender',
+      details: '3D model for attracting customers for a jam product. The most excellent business advertisement you will see.',
     },
   ];
 

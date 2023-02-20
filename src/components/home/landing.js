@@ -6,7 +6,7 @@ import { MdAlternateEmail } from 'react-icons/md';
 const ChangingText = () => {
   return (
     <div className="h-32  w-full flex flex-col justify-center">
-      <h3 className="text-center text-7xl">We are Creativo Code</h3>
+      <h3 className="text-center text-5xl md:text-7xl">We are Creativo Code</h3>
     </div>
   );
 };
@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="stack-layer-grid-child h-[76%] w-full flex flex-col justify-center items-center text-white gap-16  md:gap-20 ">
         <ChangingText />
 
-        <div className="w-full flex flex-row gap-10  items-center text-center justify-center pt-10 md:pt-0">
+        <div className="w-full flex flex-row gap-10  items-center text-center justify-center pt-10 text-lg md:text-2xl md:pt-0">
           <h3>We Design</h3>
           <h3>We Develop</h3>
           <h3>We Ship</h3>
